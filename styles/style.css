@@ -57,7 +57,12 @@ header {
   background: #e02c6d;
   padding: 10px 24px;
   border-radius: 5px;
+  transition: background 0.7s;
 }
+.login-button:hover {
+  background: #3dbafd;
+}
+
 .login-button a {
   font-weight: 500;
   font-size: 16px;
@@ -88,6 +93,15 @@ header {
   padding: 10px 24px;
   width: 168px;
   border-radius: 5px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.watch-button:hover {
+  background: #3dbafd;
+  transform: scale(1.2) skew(-15deg);
+}
+.watch-button:hover.watch-button a {
+  font-size: 18px;
 }
 .watch-button a {
   font-size: 16px;
@@ -105,6 +119,10 @@ header {
 .banner-image img {
   width: 556px;
   height: 438px;
+  transition: transform 0.7s;
+}
+.banner-section:hover .banner-image img {
+  transform: rotate(10deg);
 }
 
 /* Players section style  */
