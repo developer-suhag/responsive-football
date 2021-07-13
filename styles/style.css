@@ -12,6 +12,10 @@ a {
 li {
   list-style: none;
 }
+main {
+  display: grid;
+  justify-content: center;
+}
 .container {
   width: 1164px;
 }
@@ -101,4 +105,34 @@ header {
 .banner-image img {
   width: 556px;
   height: 438px;
+}
+
+/* Players section style  */
+.players {
+  padding: 70px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 45px;
+}
+.player {
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-cover img {
+  width: 340px;
+  height: 256px;
+}
+.player-name {
+  color: #18191f;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+.player-description {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 18px;
 }
