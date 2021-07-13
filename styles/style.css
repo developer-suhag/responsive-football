@@ -154,3 +154,28 @@ header {
   font-weight: 400;
   margin-bottom: 18px;
 }
+
+/* Highlights section style  */
+.highlights-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 66px;
+}
+.highlight-info h2 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  color: #0a0826;
+  margin-bottom: 8px;
+  margin-top: 50px;
+}
+.highlight-info p {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.highlight-image img {
+  width: 567px;
+  height: 427px;
+}
