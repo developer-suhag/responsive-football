@@ -59,6 +59,7 @@
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
+    margin-top: 0;
   }
   .highlight-info {
     margin-bottom: 29px;
@@ -79,6 +80,7 @@
   .latest-news-setion {
     padding: 30px 20px;
     box-sizing: border-box;
+    margin-top: 30px;
   }
   .blogs {
     grid-template-columns: 50px 1fr 50px;
