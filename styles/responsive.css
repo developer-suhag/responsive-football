@@ -180,8 +180,11 @@
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0 0 0;
     box-sizing: border-box;
+  }
+  .banner-description {
+    padding-left: 20px;
   }
 
   .banner-description h2 {
@@ -268,6 +271,12 @@
   }
   .partner img {
     width: 100px;
+  }
+
+  /* newsletter section responsive  */
+  .newsletter-form input {
+    margin-bottom: 20px;
+    width: 250px;
   }
 
   /* footer section  responsive */
