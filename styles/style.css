@@ -122,7 +122,7 @@ header {
   transition: transform 0.7s;
 }
 .banner-section:hover .banner-image img {
-  transform: rotate(10deg);
+  /* transform: rotate(10deg); */
 }
 
 /* Players section style  */
@@ -217,6 +217,9 @@ header {
 }
 
 /* partner section styles  */
+.partners-section {
+  padding: 80px 0;
+}
 
 .partners {
   display: grid;
@@ -239,8 +242,6 @@ header {
   font-weight: 500;
 }
 
-.newsletter-form {
-}
 .newsletter-form input {
   width: 70%;
   padding: 15px 20px;
