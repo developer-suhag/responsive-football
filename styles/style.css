@@ -39,7 +39,10 @@ header {
   width: 1164px;
   height: 44px;
 }
-
+.mobile-menu-check,
+.mobile-menu-icon {
+  display: none;
+}
 .menu ul {
   display: flex;
 }
