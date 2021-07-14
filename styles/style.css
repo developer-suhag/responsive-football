@@ -122,7 +122,7 @@ header {
   transition: transform 0.7s;
 }
 .banner-section:hover .banner-image img {
-  /* transform: rotate(10deg); */
+  transform: rotate(10deg);
 }
 
 /* Players section style  */
@@ -258,7 +258,7 @@ header {
   border: none;
   border-radius: 30px;
   margin-left: 20px;
-  width: 20%;
+  /* width: 20%; */
   cursor: pointer;
   transition: background 0.7s;
 }
